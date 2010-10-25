@@ -21,7 +21,7 @@ pages 目录下的结构为：
 |-page2/snippet1.php
 |-page2/snippet2.php
 |-page2.php
-<pre>
+</pre>
 
 特殊文件
 --------
