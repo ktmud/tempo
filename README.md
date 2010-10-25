@@ -13,6 +13,7 @@ src/    CSS和js的源文件目录
 template/    公用 php 模板，页头、页尾或者其他需要在各个 pages 通用的区块
 
 pages 目录下的结构为：
+<pre>
 -pages/
 |-page1/snippet1.php
 |-page1/snippet2.php
@@ -20,6 +21,7 @@ pages 目录下的结构为：
 |-page2/snippet1.php
 |-page2/snippet2.php
 |-page2.php
+<pre>
 
 特殊文件
 --------
