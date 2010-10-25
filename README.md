@@ -1,18 +1,18 @@
-���ٿ�ʼDemo������ģ��
+快速开始Demo开发的模板
 ======================
 
-�����ʺ�������Ŀ��ʱ��
+极其适合有新项目的时候。
 
-ͬһĿ¼�¾�������������ĸ�ظ�����Ŀ¼/�ļ����Է���ʹ�� tab ���Զ���ȫ��
+同一目录下尽量不出现首字母重复的子目录/文件，以方便使用 tab 键自动补全。
 
-a/      ���ô�����ϴ����������ű�
-build/  ѹ���õģ�����ֱ�Ӵ��� assets ���������ļ�
-inc/    php������ URL ��������
-pages/  ҳ�棬�� ?page= �й�
-src/    CSS��js��Դ�ļ�Ŀ¼
-template/    ���� php ģ�壬ҳͷ��ҳβ����������Ҫ�ڸ��� pages ͨ�õ�����
+a/      放置批处理脚本
+build/  压缩好的，可以直接传到 assets 服务器的文件
+inc/    php函数和 URL 参数处理
+pages/  页面，与 ?page= 有关
+src/    CSS和js的源文件目录
+template/    公用 php 模板，页头、页尾或者其他需要在各个 pages 通用的区块
 
-pages Ŀ¼�µĽṹΪ��
+pages 目录下的结构为：
 -pages/
 |-page1/snippet1.php
 |-page1/snippet2.php
@@ -21,6 +21,6 @@ pages Ŀ¼�µĽṹΪ��
 |-page2/snippet2.php
 |-page2.php
 
-�����ļ�
+特殊文件
 --------
-������ URL ������ͳһ���� inc/params.php ��
+新增的 URL 参数请统一放在 inc/params.php 里
