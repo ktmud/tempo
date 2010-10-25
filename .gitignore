@@ -1,0 +1,8 @@
+*.swp
+*.swo
+.svn/
+Thumbs.db*
+tmp/
+logs/
+build/*.js
+build/*.css

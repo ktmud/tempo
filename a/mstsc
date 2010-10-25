@@ -1,0 +1,39 @@
+#!/bin/sh
+# 连接测试用的 Windows 虚拟主机 
+
+# $2 传递多余参数，比如用户名密码
+connect_windows () {
+    rdesktop $1 -g 1024x768+100+100 -z -P -r clipboard:PRIMARYCLIPBOARD $2
+}
+
+welcome () {
+    echo "选择一台机器连接 (0-9)："
+    echo "  [1]: windows 2003"
+    echo "  [2]: windows xp + IE6"
+    echo "  [3]: windows xp + IE7"
+    echo "  [4]: windows xp + IE8"
+    read mechine
+}
+
+welcome
+
+case "$mechine" in
+
+    # 8核CPU，8G内存，200G硬盘, windows 2003
+    1)
+        ;;
+
+    2)
+        ;;
+
+    3)
+        ;;
+
+    4)
+        ;;
+
+    *)
+        welcome
+        ;;
+
+esac
